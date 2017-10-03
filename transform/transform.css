@@ -1,0 +1,144 @@
+body {
+	background-image: url(bg.jpg);
+}
+
+.box {
+    height: 300px;
+    width: 20px;
+    position: absolute;
+    border: solid 1px black;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    background-color: green;
+    animation-name: down;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes down {
+    0% {}
+    30% {
+        margin-top: 280px;
+        background-color: red;
+    }
+    40% {
+    	margin-top: 200px;
+    	    }
+    50% {
+    	margin-top: 280px;
+    	background-color: blue;
+    }
+    60% {
+    	margin-top: 230px;
+    }
+    70% {
+    	margin-top: 280px;
+    	background-color: yellow;
+    }
+    80% {
+    	margin-top: 260px;
+    }
+    90% {
+    	margin-top: 280px;
+		background-color: pink;    	
+    }
+    100% {
+    	margin-top: 270px;
+    }
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transform: rotate(45deg);
+    margin-top: 30px;
+    margin-left: 80px;
+    animation-name: square_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+
+@keyframes square_animation {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: black;
+    }
+}
+
+.circle-1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 400px;
+    display: inline-block;
+    animation-name: circle1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle1 {
+    0% {}
+    25% {
+        background-color: grey;
+    }
+    50% {
+        background-color: white;
+    }
+}
+
+.circle-2 {
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    background-color: black;
+    display: inline-block;
+    animation-name: circle2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes circle2 {
+    0% {}
+    25% {
+        background-color: grey;
+    }
+    50% {
+        background-color: white;
+    }
+}
+
+.circle-3 {
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    background-color: black;
+    display: inline-block;
+    animation-name: circle3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes circle3 {
+    0% {}
+    25% {
+        background-color: grey;
+    }
+    50% {
+        background-color: white;
+    }
+}

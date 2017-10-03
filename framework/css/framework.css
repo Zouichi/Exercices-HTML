@@ -1,0 +1,143 @@
+html, body {
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.container {
+	width: 100%;
+}
+
+.col {
+	float: left;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+}
+
+.col-xs-1 {
+	width: calc(100% * (1 / 12));
+	border: solid 1px red;
+	margin-top: 1%;
+}
+
+.col-xs-2 {
+	margin-top: 1%;
+	width: calc(100% * (2 / 12));
+	border: solid 1px green;	
+}
+
+.col-xs-3 {
+	margin-top: 1%;
+	width: calc(100% * (3 / 12));
+	border: solid 1px blue;	
+}
+
+.col-xs-4 {
+	margin-top: 1%;
+	width: calc(100% * (4 / 12));
+	border: solid 1px yellow;	
+}
+
+.col-xs-5 {
+	margin-top: 1%;
+	width: calc(100% * (5 / 12));
+	border: solid 1px grey;	
+}
+
+.col-xs-6 {
+	margin-top: 1%;
+	width: calc(100% * (6 / 12));
+	border: solid 1px purple;	
+}
+
+.col-xs-7 {
+	margin-top: 1%;
+	width: calc(100% * (7 / 12));
+	border: solid 1px pink;	
+}
+
+.col-xs-8 {
+	margin-top: 1%;
+	width: calc(100% * (8 / 12));
+	border: solid 1px black;	
+}
+
+.col-xs-9 {
+	margin-top: 1%;
+	width: calc(100% * (9 / 12));
+	border: solid 1px cyan;	
+}
+
+.col-xs-10 {
+	margin-top: 1%;
+	width: calc(100% * (10 / 12));
+	border: solid 1px lightgreen;	
+}
+
+.col-xs-11 {
+	margin-top: 1%;
+	width: calc(100% * (11 / 12));
+	border: solid 1px magenta;	
+}
+
+.col-xs-12 {
+	margin-top: 1%;
+	width: calc(100% * (12 / 12));
+	border: solid 1px darkred;	
+}
+
+.row {
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.col-xs-21 {
+	width: calc(100% * (4 / 12));
+	border: solid 1px red;
+	margin-top: 1%;
+	background: url(http://media.giphy.com/media/uBG5MIDCrWqrK/giphy.gif);
+	background-size: cover;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+	.col-sm-6 {
+	width: calc(100% * (3 / 12));
+	border: solid 1px yellow;
+	margin-top: 1%;
+	background: url(https://media.giphy.com/media/aHlnxCpJUIDM4/giphy.gif);
+	background-size: cover;
+	}
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+	.col-md-9 {
+	width: calc(100% * (2 / 12));
+	border: solid 1px green;
+	margin-top: 1%;	
+	background: url(https://media.giphy.com/media/zjumgQVDaY33q/giphy.gif);
+	background-size: cover;
+	}
+}
+
+@media (min-width: 1200px) {
+	.col-lg-12 {
+	width: calc(100% * (1 / 12));
+	border: solid 1px blue;
+	margin-top: 1%;		
+	background: url(https://media.giphy.com/media/zk6GuYqfi3M2s/giphy.gif);
+	background-size: cover;
+	}
+}
